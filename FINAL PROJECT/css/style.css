@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+html{
+    overflow-x: hidden!important;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+}
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Inter', 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+.col-md-5 {
+    padding: 0;
+    margin: 0;
+}
+
+
+ /* Foodieland logo. */
+.logo{
+margin-left: 30px;
+/* End Foodieland Logo*/
+}
+
+/* navbar.*/
+
+
+
+
+.navbar-nav{
+    margin-left: 20px;
+}
+
+.nav-item {
+    padding: 10px 13px 0px;
+}
+
+.social{
+    margin-left: 300px;
+}
+/* End navbar.*/
+
+  
+
+/* Home page one.*/
+
+@media screen and (min-width: 850px) {
+    .hot-recipes{
+        margin-left: 50px;
+        padding-right: 30px;
+        }
+        .videoo{
+            width: 750px!important;
+            height: 515px!important;
+  
+
+}
+
+@media screen and (max-width: 750px) {
+    .cards__{
+        margin-left: 50px!important;
+    
+        }
+        .new{
+            width: 10px!important;
+            height: 100px!important;  
+}
+
+@media screen and (max-width: 750px) {
+    .foodie__{
+        margin-left: 70px!important;
+    
+        }
+}
+@media screen and (max-width: 750px) {
+    .delicious__{
+        margin-left: 90px!important;
+    
+        }
+}
+
+@media  screen and (max-width: 750px) {
+    botton__{
+        margin-left: 90px!important;
+    }
+}
+
+
+
+.chicken-wing{
+    height: 640px;
+    width: 660px;
+}
+.john-smith{
+    margin-top: 100px;
+}
+.view-recipes{
+    margin-left: 80px;
+}
+
+
+.input_ {
+    position: relative;
+    left: -12px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none!important;
+    /*Sometime the blue border you see is from the box-shadow and removing box-shadow will remove the border*/
+}  
+
+.btn_ {
+    position: relative;
+    left: 55px;
+}
+
+.blog-button{
+    position: relative;
+    bottom: 60px;
+    
+    
+}
+
+/* End Home page one.*/
+
+/* Home page two.*/
+.categories{
+    margin-top: 130px;
+}
+.categories-recipes{
+    margin-left: 700px;
+    margin-top: 8px;
+}
+.breakfast{
+    margin-left: 20px;
+}
+
+/* End Home page two.*/
+
+/* Home page three.*/
+.simple-tasty{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.card-one{
+    border-radius: 20%;
+}
+
+
+/* End Home page three.*/
+
+.check-out{
+    background:  linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+
+/* Delicious inbox.*/
+
+.salad-fruit{
+   margin-right: 40px;
+}
+
+.blog-post{
+   position: absolute;
+   width: 810px;
+   height: 124px;
+   left: 0px;
+   top: 1100px;
+
+   background: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
+}
+/* End Delicious inbox.*/
+
+.video-tap{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 300px;
+    top: 229px;
+}
+.click{
+    margin-top: 30px;
+}
+
+.imag-fluid{
+    width: 1100px; 
+    height: 500px;
+    margin-right: ;
+}
+
+/* © 2020 Flowbase. Powered by Webflow */
+
+/* media responsive */
+
+@media all and (max-width: 500px) {
+   
+}
